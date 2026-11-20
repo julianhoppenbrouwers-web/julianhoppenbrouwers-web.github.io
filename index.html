@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kanaaloverzicht</title>
+<meta name="description" content="Kanaaloverzicht is een persoonlijk dashboard dat views, inkomsten en abonnees van eigen YouTube-kanalen op één plek laat zien.">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#05070f;--ink:#e8eeff;--mut:#8d99bd;--cyan:#3ee6ff;--blue:#4d7cff}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(800px 420px at 85% -10%,rgba(77,124,255,.25),transparent 60%),linear-gradient(rgba(110,200,255,.04) 1px,transparent 1px) 0 0/44px 44px,linear-gradient(90deg,rgba(110,200,255,.04) 1px,transparent 1px) 0 0/44px 44px,var(--bg);color:var(--ink);font:17px/1.6 Inter,system-ui,sans-serif;min-height:100vh}
+main{max-width:760px;margin:0 auto;padding:64px 20px}
+h1{font-family:"Chakra Petch",sans-serif;font-size:clamp(36px,7vw,56px);line-height:1.05;margin:0 0 14px;background:linear-gradient(90deg,#fff,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-family:"Chakra Petch",sans-serif;font-size:22px;margin:36px 0 8px}
+p,li{color:#cfd7f0}
+a{color:var(--cyan)}
+ul{padding-left:20px}
+.card{border:1px solid rgba(110,200,255,.2);background:rgba(16,24,48,.5);padding:20px 22px;margin-top:24px}
+footer{margin-top:48px;font-size:14px;color:var(--mut)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Kanaaloverzicht</h1>
+  <p>Kanaaloverzicht is een persoonlijk dashboard waarmee de eigenaar van een aantal YouTube-kanalen de cijfers van al die kanalen op één plek bekijkt: views, geschatte inkomsten en abonnees, per kanaal en opgeteld, met een splitsing tussen Shorts en long form en een ranglijst van de kanalen.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Wat de app doet</h2>
+    <ul>
+      <li>Na toestemming van de kanaaleigenaar leest de app de statistieken van zijn of haar eigen YouTube-kanalen via de officiële YouTube Data API en YouTube Analytics API.</li>
+      <li>De app leest alleen; hij kan niets uploaden, wijzigen of verwijderen op YouTube.</li>
+      <li>De cijfers worden bewaard in een Google Sheet van de eigenaar en getoond in een dashboard dat alleen de eigenaar kan openen.</li>
+      <li>De app is niet openbaar beschikbaar en wordt niet verkocht.</li>
+    </ul>
+  </div>
+
+  <h2>Privacy</h2>
+  <p>Lees in het <a href="privacy.html">privacybeleid</a> welke gegevens de app gebruikt, waarvoor, en hoe je de toegang weer intrekt.</p>
+
+  <footer>Contact: <a href="mailto:juulkutkind@gmail.com">juulkutkind@gmail.com</a> · <a href="privacy.html">Privacybeleid</a></footer>
+</main>
+</body>
+</html>
